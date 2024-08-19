@@ -1,0 +1,11 @@
+<div class="menu-btn" (click)="toggleNav()">☰</div>
+<div class="menu" [ngClass]="{ 'active': navOpen }">
+  <!-- Your navigation menu content here -->
+</div>
+
+<div id="chat-box" class="chat-box" [ngClass]="{ 'active': chatVisible }">
+  <div id="chat-body" class="chat-body"></div>
+  <input id="chat-input" type="text" class="chat-input" placeholder="Type a message..." (keydown.enter)="sendMessage()">
+</div>
+
+<button (click)="toggleChat()">Chat with Prabhat</button>

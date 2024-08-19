@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prabhat Kumar - Portfolio</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Replace with your CSS file -->
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- jQuery (necessary for Slick) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Slick JS -->
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+
+<!-- Navigation Section -->
+<nav class="navbar">
+  <div class="max-width">
+    <div class="logo"><a href="#">Prabhat Kumar</a></div>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#technology">Technology</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-btn"><i class="fas fa-bars"></i></div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="home">
+  <div class="max-width">
+    <div class="home-content">
+      <div class="text-1">Hello, I am</div>
+      <div class="text-2">Prabhat Kumar</div>
+      <div class="text-3">A Full-Stack Java Developer</div>
+      <a href="#contact">Hire Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <div class="max-width">
+    <h2 class="title">About Me</h2>
+    <div class="about-content">
+      <div class="column left">
+        <img src="profile.jpg" alt="Prabhat Kumar">
+      </div>
+      <div class="column right">
+        <div class="text">I'm Prabhat Kumar, a recent graduate with a passion for software development. I specialize in Java, Spring Boot, Angular, and MySQL, with experience in building web applications and RESTful APIs.</div>
+        <p>Explore my portfolio to see some of my projects and technologies I've worked with.</p>
+        <a href="/resume.pdf" target="_blank" class="btn btn-primary">Download CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <div class="max-width">
+    <h2 class="title">My Projects</h2>
+    <div class="projects-content">
+      <div class="card">
+        <img src="./project1.jpg" alt="Project 1">
+        <div class="overlay">
+          <h3>Project 1 Name</h3>
+          <p>A brief description of Project 1. Click to learn more.</p>
+        </div>
+      </div>
+      <!-- Add more project cards as needed -->
+    </div>
+  </div>
+</section>
+
+<!-- Technology Section -->
+<section id="technology" class="technology">
+  <div class="max-width">
+    <h2 class="title">Tools & Technology Used</h2>
+    <p>Hover or Click to Discover the Tools and Technologies Powering Our Projects</p>
+    <div class="card-wrapper">
+      <div class="card">
+        <div class="overlay">
+          <span>Tool : IntelliJ IDEA</span>
+          <a href="#">I utilize IntelliJ IDEA, a powerful and user-friendly development tool, to create and develop RESTful webservices APIs</a>
+        </div>
+        <img src="./intellij.png" alt="IntelliJ IDEA">
+      </div>
+      <!-- Add more technology cards as needed -->
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="max-width">
+    <h2 class="title">Contact Me</h2>
+    <div class="contact-content">
+      <div class="column left">
+        <div class="text">Get in Touch</div>
+        <p>I am always open to new opportunities and collaborations. Feel free to connect with me via my LinkedIn profile.</p>
+        <div class="icons">
+          <div class="row">
+            <i class="fas fa-user"></i>
+            <div class="info">
+              <div class="head">Name</div>
+              <div class="sub-title">Prabhat Kumar</div>
+            </div>
+          </div>
+          <!-- Add more contact information rows as needed -->
+        </div>
+      </div>
+      <div class="column right">
+        <div class="text">Message Me</div>
+        <form action="https://formsubmit.co/prabhatkumarssm72@gmail.com" method="POST">
+          <div class="fields">
+            <div class="field name">
+              <input type="text" name="name" required placeholder="Name">
+            </div>
+            <div class="field email">
+              <input type="email" name="email" required placeholder="Email">
+            </div>
+          </div>
+          <div class="field">
+            <input type="text" name="subject" required placeholder="Subject">
+          </div>
+          <div class="field textarea">
+            <textarea name="message" required placeholder="Message"></textarea>
+          </div>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://shorturl.at/huvBE">
+          <div class="button-area">
+            <button type="submit" id="submit-btn" disabled>No cheating 😀</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Chat Button -->
+<div class="container">
+  <button class="chat-button" onclick="toggleChat()">
+    <img src="chat.png" alt="Message" class="chat-icon">
+  </button>
+  <div class="chat-box" id="chat-box">
+    <div class="chat-header">
+      <span class="close" onclick="toggleChat()">&times;</span>
+      <h4>Chat with Prabhat</h4>
+    </div>
+    <div class="chat-container">
+      <div class="chat-body" id="chat-body">
+        <!-- Predefined texts will be displayed here -->
+      </div>
+      <div class="chat-footer">
+        <input type="text" id="chat-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+    <div class="typing-indicator" id="typing-indicator"></div>
+  </div>
+</div>
+
+<!-- Footer Section -->
+<footer>
+  <span>Created By <a href="#">Prabhat Kumar</a> | <span class="far fa-copyright"></span> 2019-2024 All rights reserved.</span>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>

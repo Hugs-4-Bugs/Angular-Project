@@ -1,0 +1,31 @@
+.menu-btn {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .menu.active {
+    display: block;
+  }
+  
+  .chat-box {
+    display: none;
+  }
+  
+  .chat-box.active {
+    display: block;
+  }
+  
+  .chat-body {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .chat-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+  }
+  
