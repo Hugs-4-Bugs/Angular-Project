@@ -1,0 +1,155 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "fristName": "Vivek ",
+      "lastName": "Sharma",
+      "email": "sharma@gmail.com",
+      "mobile": "8472941939",
+      "salary": "$ 45000"
+    },
+    {
+      "id": 3,
+      "fristName": "Test",
+      "lastName": "Data",
+      "email": "Testdata@gmail.com",
+      "mobile": "9745378687",
+      "salary": "@"
+    },
+    {
+      "id": 4,
+      "fristName": "Raja ",
+      "lastName": "Babu",
+      "email": "rajababu@gmail.com",
+      "mobile": "8328482634",
+      "salary": "$ 6500"
+    },
+    {
+      "id": 5,
+      "fristName": "Amrit",
+      "lastName": "Raj",
+      "email": "Rajamrit@gmail.com",
+      "mobile": "9473858294",
+      "salary": "$ 38000"
+    },
+    {
+      "id": 6,
+      "fristName": "Abhimanyu",
+      "lastName": "Kumar",
+      "email": "ranaabhimanyu6@gmail.com",
+      "mobile": "9334336025",
+      "salary": "$ 4500"
+    },
+    {
+      "id": 7,
+      "fristName": "Sonu",
+      "lastName": "Kumar",
+      "email": "sonua@gmail.com",
+      "mobile": "8846839356",
+      "salary": "$ 30000"
+    },
+    {
+      "id": 8,
+      "fristName": "Nachiketa",
+      "lastName": "Sharma",
+      "email": "nachiketasharma@gmail.com",
+      "mobile": "7783893249",
+      "salary": "$ 45000"
+    },
+    {
+      "id": 9,
+      "fristName": "Nachiketa",
+      "lastName": "Sharma",
+      "email": "nachiketasharma@gmail.com",
+      "mobile": "7783893249",
+      "salary": "$ 45000"
+    },
+    {
+      "id": 3,
+      "fristName": "Pradeep",
+      "lastName": "singh",
+      "email": "singhpradeep@gmail.com",
+      "mobile": "9745338407",
+      "salary": "$ 50000"
+    },
+    {
+      "id": 10,
+      "fristName": "Pradip Kumar",
+      "lastName": "Shah",
+      "email": "shahpradeep@gmail.com",
+      "mobile": "9686151710",
+      "salary": "$ 50000"
+    },
+    {
+      "id": 11,
+      "fristName": "Peeraiah. G",
+      "lastName": "Reddy",
+      "email": "peeraiahgreddy@gmail.com",
+      "mobile": "9686151710",
+      "salary": "$ 50000"
+    },
+    {
+      "id": 12,
+      "fristName": "Prabhat ",
+      "lastName": "Sharma",
+      "email": "prabhatskit@gmail.com",
+      "mobile": "7250063206",
+      "salary": "$ 50000"
+    },
+    {
+      "id": 13,
+      "fristName": "Kumar ",
+      "lastName": "Akash",
+      "email": "kumarAkash74@gmail.com",
+      "mobile": "6498452936",
+      "salary": "$ 50000"
+    },
+    {
+      "id": 14,
+      "fristName": "Amrit",
+      "lastName": "Raj",
+      "email": "amritraj@gmail.com",
+      "mobile": "7825360284",
+      "salary": "$25000"
+    },
+    {
+      "id": 15,
+      "fristName": "Rohit ",
+      "lastName": "Yadav",
+      "email": "rohanyadav@gmail.com",
+      "mobile": "7482549164",
+      "salary": "$ 50000"
+    },
+    {
+      "id": 16,
+      "fristName": "Sri ",
+      "lastName": "Krishna ",
+      "email": "skit@org.in",
+      "mobile": "9743975308",
+      "salary": "70000"
+    },
+    {
+      "id": 17,
+      "fristName": "ABCD",
+      "lastName": "EFGH",
+      "email": "abcd@gmail.com",
+      "mobile": "8463937502",
+      "salary": "$ 50000"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
